@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using Library.Api.Commons.Interfaces;
+using Library.Api.Commons.Interfaces.Persistance;
 
 namespace Library.Api.Persistance
 {

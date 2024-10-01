@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Library.Api.Commons.Interfaces
+namespace Library.Api.Commons.Interfaces.Persistance
 {
     public interface IDbConnnectionFactory
     {

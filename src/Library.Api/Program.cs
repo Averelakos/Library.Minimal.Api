@@ -8,6 +8,9 @@ using Library.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//Add Configuration files
+//builder.Configuration.AddJsonFile("appsetting.local.json", true, true);
+
 #region Add Services Here
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
